@@ -1,0 +1,110 @@
+.selector-for-some-widget {
+    box-sizing: content-box;
+  }
+
+body {
+  background: rgb(0, 1, 12);
+}
+
+.jumbotron {
+  min-width: 585px;
+  margin: 10px auto;
+  display: flex;
+  justify-content: center;
+  margin: 10px 10px 10px 10px;
+  border: 0.88em solid black;
+  background-color: white;
+}
+
+h1 {
+  font-size: 2em;
+  color: white;
+  font-style: serif;
+}
+
+p {
+  color: white;
+}
+
+.container {
+  justify-content: center;
+
+}
+
+h2 {
+  font-size: 2em;
+  color: rgb(240, 243, 243);
+}
+
+h5 {
+  color: white;
+}
+
+.card {
+  background-color: black;
+  
+}
+
+.btn {
+  justify-content: center;
+}
+
+.text-center {
+  color: white;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color:  rgb(37, 47, 177);
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.container {
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.column {
+  float: left;
+  width: 50%;
+  margin-top: 6px;
+  padding: 20px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@media screen and (max-width: 600px) {
+  .column, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+
+#wrapper {
+  widows: 80%;
+  margin-left:auto;
+  margin-right:auto;
+}
